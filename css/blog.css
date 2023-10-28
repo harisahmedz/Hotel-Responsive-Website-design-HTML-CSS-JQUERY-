@@ -1,0 +1,143 @@
+.para p{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    
+    margin: auto;
+    width:70%;
+    text-align: Center;
+    margin-bottom: 5%;
+ 
+}
+.justify-content-center h1{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 1%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #343a40;
+    text-align: Center;
+    text-transform: uppercase;
+    margin-top:5%;
+}
+.justify-content-center h1 b{
+    color:#fe4e37;
+    
+}
+.pagination > li > a
+{
+    background-color: white;
+    color:#fe4e37;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: #5a5a5a;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination > .active > a
+{
+    color: white;
+    background-color: #fe4e37!Important;
+    border: solid 1px #fe4e37 !Important;
+}
+
+.pagination > .active > a:hover
+{
+    background-color: #fe4e37;
+    border: solid 1px #fe4e37;
+}
+
+.news-1{
+
+    display: grid;
+ 
+    grid-template-columns: repeat(auto-fit,minmax(330px,1fr));
+    grid-column-gap:1em;
+    grid-row-gap:1em;
+    padding-bottom:5% ;
+}
+.news-1 h2{
+    color: #7c7c7c;;
+    letter-spacing: 0.2em;
+    font-weight: 600;
+    font-size: 0.6em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width:330px;
+}
+.news-1 h1{
+    font-family: Poppins;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 0.3em;
+    width:330px;
+    
+}
+.news-1 p{
+
+    font-size: 0.7em;
+    line-height: 1.71429;
+    margin-bottom: 15px;
+    color: #444444;
+    width:330px;
+}
+
+.news-1 a{
+    color: rgb(223, 77, 61);
+    font-size: 0.6em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top:110%;
+    
+}
+.news-1 i{
+    padding-right: 2%;
+  
+    color: rgb(223, 77, 61);
+    font-size: 1em;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+}
+.article-1 img{
+    width:334px;
+}
+.article-1{
+    width:330px;
+}
+.ex-btn1{
+    text-align: center;
+    margin-bottom:5%;
+}
+.ex-btn{
+    margin: 2% 0 5% 2.5%;
+    background: #343a40;
+   
+    color: #fff;
+    border:none;
+    padding: 12px 30px 12px;
+    border-radius: 20px;
+    color: #fff;
+    display: inline-block;
+    transition: all ease-in-out 0.3s;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+}
